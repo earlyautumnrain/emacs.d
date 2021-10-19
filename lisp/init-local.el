@@ -3,13 +3,14 @@
 ;;; Code:
 (require-package 'use-package)
 
+(mac-auto-operator-composition-mode)
 
 ;; [ Programming ] ;;
 
 (use-package editorconfig
-  :ensure t
-  :config
-  (editorconfig-mode 1))
+             :ensure t
+             :config
+             (editorconfig-mode 1))
 
 
 ;; [ Python ] ;;
